@@ -1,0 +1,18 @@
+$(document).ready(function() {
+    $.ajax({
+        type: 'post',
+        url: 'https://vn9.site/radish/api/u888cskh/cskh',
+        cache: false,
+        dataType: 'json',
+        async: true,
+        crossDomain: true,
+        timeout: 5000,
+        success: function(x) {
+
+            $("#cskha").attr("href", x.data);
+        },
+        error: function(error) {
+            console.log(error);
+        }
+    });
+});
