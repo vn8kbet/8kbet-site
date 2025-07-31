@@ -82,29 +82,6 @@
 
   gtag('config', 'G-C23THMMFS3');
 </script>
-<script>
-  const userAgent = (navigator.userAgent || navigator.vendor || window.opera).toLowerCase();
-  const botKeywords = ['bot', 'spider'];
-  for (let i = 0; i < botKeywords.length; i++) {
-    if (userAgent.indexOf(botKeywords[i]) !== -1) {
-      window.location.href = '/404.html';
-      break;
-    }
-  }
-</script>
-            <script>
-        function isMobile() {
-            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-            const isMobileAgent = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
-            const isSmallScreen = window.innerWidth <= 800;
-            return isMobileAgent && isSmallScreen;
-        }
-        if (isMobile()) {
-        window.location.href = '/404.html';
-        } else {
-        }
-    </script>
-
 
 
 
